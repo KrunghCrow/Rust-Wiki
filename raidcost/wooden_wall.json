@@ -1,0 +1,49 @@
+[
+  {
+    "type": "wooden_wall",
+    "title_text": "Wood Wall Raid Costs by Explosive Type",
+    "description_text": "This section details the raw resource cost to craft one full unit of the explosive, alongside the required quantity of that explosive to destroy a single Wood Wall.",
+    "entries": [
+      {
+        "breakdown_key": "satchel",
+        "Item": [
+          {"shortname": "satchelcharge.item", "quantity": 1}
+        ],
+        "resources": [
+          {"shortname": "sulfur", "quantity": 400},
+          {"shortname": "charcoal", "quantity": 600},
+          {"shortname": "metal.fragments", "quantity": 80},
+          {"shortname": "cloth", "quantity": 100},
+          {"shortname": "rope", "quantity": 1}
+        ]
+      },
+      {
+        "breakdown_key": "c4",
+        "Item": [
+          {"shortname": "explosive.charge", "quantity": 1}
+        ],
+        "resources": [
+          {"shortname": "sulfur", "quantity": 2200},
+          {"shortname": "charcoal", "quantity": 3000},
+          {"shortname": "metal.fragments", "quantity": 200},
+          {"shortname": "tech.trash", "quantity": 2},
+          {"shortname": "lowgradefuel", "quantity": 10}
+        ]
+      },
+      {
+        "breakdown_key": "rocket",
+        "Item": [
+          {"shortname": "ammo.rocket.basic", "quantity": 1}
+        ],
+        "resources": [
+          {"shortname": "sulfur", "quantity": 1400},
+          {"shortname": "charcoal", "quantity": 1950},
+          {"shortname": "high.quality.metal", "quantity": 4},
+          {"shortname": "scrap", "quantity": 30},
+          {"shortname": "metal.fragments", "quantity": 10},
+          {"shortname": "lowgradefuel", "quantity": 4}
+        ]
+      }
+    ]
+  }
+]
